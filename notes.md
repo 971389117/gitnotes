@@ -45,15 +45,15 @@
 - `git push origin` 标签名 推送标签到远程
 - `git push origin --tags` 推送所有为推送的本地标签
 - `git push origin :refs/tags/标签名` 删除远程tag(先删除本地的)
-- `git reset HEAD file 撤销暂存区
+- `git reset HEAD file` 撤销暂存区
 # 配置别名
-- `git config --global alias.st status
-- `git config --global alias.co checkout
-- `git config --global alias.ci commit
-- `git config --global alias.br branch
-- `git config --global alias.unstage 'reset HEAD'
-- `git config --global alias.last 'log -1'
-- `git config --global alias.lg "log --color --graph --pretty=format:'%Cred%h%Creset -%C(auto)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
+- `git config --global alias.st status`
+- `git config --global alias.co checkout`
+- `git config --global alias.ci commit`
+- `git config --global alias.br branch`
+- `git config --global alias.unstage 'reset HEAD'`
+- `git config --global alias.last 'log -1'`
+- `git config --global alias.lg "log --color --graph --pretty=format:'%Cred%h%Creset -%C(auto)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"`
 
 # 配置文件
 项目：项目路径/.git/config
